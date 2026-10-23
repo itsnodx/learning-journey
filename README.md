@@ -43,6 +43,6 @@ Les notes porteront principalement sur les concepts abordés, les outils utilis�
 
 Les travaux réalisés sur mes équipements physiques et mes environnements virtualisés sont regroupés dans un dépôt distinct :
 
-**[itsnodx-Lab](https://github.com/itsnodx/itsnodx-Lab)**
+**[NodX-Lab](https://github.com/itsnodx/itsnodx-Lab)**
 
 Ce dépôt comprend notamment les expérimentations liées aux réseaux, à l'administration système, à la virtualisation et à la cybersécurité.
