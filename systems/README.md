@@ -31,4 +31,4 @@ Cette partie accueillera les travaux sur l'administration Windows Server, Active
 
 Les notes porteront sur les machines virtuelles, les réseaux virtuels et l'administration de Proxmox VE.
 
-Les installations et configurations effectuées dans mon homelab seront documentées séparément dans [itsnodx-Lab](https://github.com/itsnodx/itsnodx-Lab).
+Les installations et configurations effectuées dans mon homelab seront documentées séparément dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
