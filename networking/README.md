@@ -5,7 +5,7 @@ Ce dossier rassemble mes notes sur les réseaux informatiques, des notions fonda
 
 Je m'appuie notamment sur les cours de Jeremy's IT Lab (CCNA) et de Professor Messer (Network+), en complément de mes cours universitaires.
 
-Les expérimentations réalisées sur mes équipements physiques sont documentées dans [itsnodx-Lab](https://github.com/itsnodx/itsnodx-Lab).
+Les expérimentations réalisées sur mes équipements physiques sont documentées dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
 
 ## Progression
 
