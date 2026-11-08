@@ -1,43 +1,23 @@
-# Séance 01 — Modèles OSI/TCP-IP et diagnostic de connectivité
+# Séance 01 — OSI, TCP/IP et premiers diagnostics
 
-**Date :** 2026-11-04  
-**Module :** 01 — Fondamentaux des réseaux  
-**Sujet :** communication locale, couches OSI, rôle de la passerelle
+**Date :** 4 novembre 2026  
+**Sujet :** comprendre ce que les tests réseau prouvent (et ce qu'ils ne prouvent pas)
 
-## Objectif
+## Ce que j'ai travaillé
 
-Relier les couches des modèles OSI et TCP/IP à des situations simples de diagnostic réseau, avant d'observer les paquets avec Wireshark.
-
-## Concepts travaillés
-
-- **Couche 1 — Physique :** un câble Ethernet débranché empêche la transmission sur le lien concerné.
-- **Couche 2 — Liaison :** un switch Ethernet peut acheminer des trames entre appareils d'un même réseau local.
-- **Couche 3 — Réseau :** une destination hors du sous-réseau nécessite une route appropriée, généralement via une passerelle.
-- **Couches supérieures :** un `ping` fonctionnel ne garantit pas qu'un serveur web ou la résolution DNS fonctionne.
-
-## Scénarios discutés et observations rapportées
-
-| Scénario | Résultat / interprétation |
-|---|---|
-| Mac et Dell connectés au même réseau local via un switch | Un échange ICMP est possible sans routeur intermédiaire. |
-| Câble Ethernet débranché | Première piste : défaut de connectivité physique (couche 1). |
-| Machines sur des sous-réseaux différents, sans routeur configuré | La communication IP inter-réseaux échoue en l'absence de route adaptée. |
-| `ping` vers le Dell possible, mais accès web impossible | Il faut examiner le service web, le port, le pare-feu et, si un nom est utilisé, DNS ; le seul `ping` ne localise pas définitivement la panne. |
-
-Ces notes synthétisent les exercices et raisonnements de la séance ; elles ne constituent pas encore une capture Wireshark ni un compte rendu de laboratoire complet.
+J'ai repris les couches OSI à partir de situations simples entre mon Mac, le Dell et le switch : deux machines dans le même réseau, un câble débranché, deux sous-réseaux sans routeur et un service web inaccessible malgré un `ping` qui fonctionne.
 
 ## Ce que je retiens
 
-Une communication se diagnostique en isolant les fonctions : lien physique, réseau local, adressage et routage IP, transport, puis service applicatif. Chaque test apporte une preuve limitée.
+- Même sous-réseau : les machines peuvent échanger sans passer par un routeur.
+- Câble débranché : commencer par vérifier le lien physique.
+- Sous-réseaux différents : vérifier les adresses IP, les masques et la route ou passerelle.
+- `ping` réussi, site inaccessible : chercher ensuite du côté du service, du port, du pare-feu ou du DNS selon le cas.
 
-## À approfondir
+Un `ping` répond à une question précise : est-ce que j'obtiens une réponse ICMP ? Il ne garantit pas le fonctionnement de toutes les applications.
 
-- Observer une résolution ARP et un échange ICMP dans Wireshark.
-- Comparer trafic local et trafic destiné à une passerelle.
-- Relever les commandes exactes, adresses de test et captures **après réalisation** du laboratoire.
+## À tester ensuite
 
-## Liens
+Observer une résolution ARP et des échanges ICMP dans Wireshark. Je garderai les commandes et captures lorsque j'aurai fait ce lab.
 
-- [Notes du module](../README.md)
-- [Glossaire](../glossaire.md)
-- [NodX-Lab](https://github.com/itsnodx/NodX-Lab)
+[Notes réseau](../README.md) · [Glossaire](../glossaire.md)
