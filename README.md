@@ -19,10 +19,7 @@ J'y organise les sujets que j'étudie, les exercices que je réalise et les noti
 ```text
 learning-journey/
 ├── networking/
-│   ├── README.md
-│   ├── glossaire.md
-│   └── journal/
-│       └── 2026-11-04-seance-01-osi-tcpip.md
+│   └── README.md
 ├── systems/
 ├── python/
 │   └── python-crash-course/
@@ -33,7 +30,7 @@ learning-journey/
 └── README.md
 ```
 
-Dans [networking](networking/), je garde un [glossaire](networking/glossaire.md) et des [notes de séance](networking/journal/). Mes essais pratiques plus complets sont dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
+Le dossier [networking](networking/) présente les notions travaillées et la progression. Les notes personnelles restent dans mon application de notes ; mes labs sont publiés dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab) une fois réalisés.
 
 Chaque dossier contient ses propres notes et exercices. Les fichiers sont ajoutés au fur et à mesure de ma progression.
 
