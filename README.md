@@ -22,7 +22,6 @@ learning-journey/
 │   ├── README.md
 │   ├── glossaire.md
 │   └── journal/
-│       ├── README.md
 │       └── 2026-11-04-seance-01-osi-tcpip.md
 ├── systems/
 ├── python/
@@ -34,7 +33,7 @@ learning-journey/
 └── README.md
 ```
 
-Pour les réseaux, [le glossaire](networking/glossaire.md) définit les termes essentiels et [le journal](networking/journal/) conserve une note par séance. Les laboratoires pratiques complets sont placés dans NodX-Lab.
+Dans [networking](networking/), je garde un [glossaire](networking/glossaire.md) et des [notes de séance](networking/journal/). Mes essais pratiques plus complets sont dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
 
 Chaque dossier contient ses propres notes et exercices. Les fichiers sont ajoutés au fur et à mesure de ma progression.
 
