@@ -19,6 +19,11 @@ J'y organise les sujets que j'étudie, les exercices que je réalise et les noti
 ```text
 learning-journey/
 ├── networking/
+│   ├── README.md
+│   ├── glossaire.md
+│   └── journal/
+│       ├── README.md
+│       └── 2026-11-04-seance-01-osi-tcpip.md
 ├── systems/
 ├── python/
 │   └── python-crash-course/
@@ -28,6 +33,8 @@ learning-journey/
 ├── .gitignore
 └── README.md
 ```
+
+Pour les réseaux, [le glossaire](networking/glossaire.md) définit les termes essentiels et [le journal](networking/journal/) conserve une note par séance. Les laboratoires pratiques complets sont placés dans NodX-Lab.
 
 Chaque dossier contient ses propres notes et exercices. Les fichiers sont ajoutés au fur et à mesure de ma progression.
 
