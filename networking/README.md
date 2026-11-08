@@ -7,17 +7,24 @@ Je m'appuie notamment sur les cours de Jeremy's IT Lab (CCNA) et de Professor Me
 
 Les expérimentations réalisées sur mes équipements physiques sont documentées dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
 
+## Organisation
+
+- [Glossaire réseau](glossaire.md) — définitions rapides et révisions.
+- [Journal des séances](journal/) — une note datée par séance d'apprentissage.
+- [Séance 01 — OSI/TCP-IP et diagnostic](journal/2026-11-04-seance-01-osi-tcpip.md) — synthèse des premières observations.
+- [NodX-Lab](https://github.com/itsnodx/NodX-Lab) — comptes rendus de laboratoires réalisés.
+
 ## Progression
 
 | Module | Sujet | État |
 |---|---|---|
-| 01 | Fondamentaux des réseaux et modèles OSI/TCP-IP |
-| 02 | Ethernet, adresses MAC et commutation  |
-| 03 | IPv4, masques et subnetting |
-| 04 | TCP, UDP et protocoles applicatifs |
-| 05 | VLAN, trunks et STP |
-| 06 | Routage et interconnexion des réseaux |
-| 07 | Sécurité et dépannage réseau |
+| 01 | Fondamentaux des réseaux et modèles OSI/TCP-IP | En cours — première séance documentée |
+| 02 | Ethernet, adresses MAC et commutation  | À étudier |
+| 03 | IPv4, masques et subnetting | À étudier |
+| 04 | TCP, UDP et protocoles applicatifs | À étudier |
+| 05 | VLAN, trunks et STP | À étudier |
+| 06 | Routage et interconnexion des réseaux | À étudier |
+| 07 | Sécurité et dépannage réseau | À étudier |
 
 Ce tableau présente l'organisation de mon apprentissage personnel. Certains sujets ont déjà été abordés pendant mes cours universitaires et seront approfondis progressivement.
 
@@ -40,6 +47,10 @@ Voici quelques exemples de technologies et d'équipements associés aux couches 
 Ces couches sont un modèle conceptuel : dans la pratique, certaines technologies remplissent plusieurs fonctions.
 
 Le TP-Link TL-SG1016DE et le Cisco 2960-X assurent principalement la commutation Ethernet de couche 2. Le Cisco 3750-X permettra également d'étudier les fonctions de routage de couche 3.
+
+## Séparation des documents
+
+Les **notes et révisions** restent ici ; les **laboratoires effectués** (topologie, sorties de commandes, preuves, diagnostic) sont publiés dans `NodX-Lab`. Les expériences à venir ne sont pas présentées comme terminées.
 
 ## Prochaines expérimentations
 
