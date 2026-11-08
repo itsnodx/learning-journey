@@ -2,7 +2,7 @@
 
 Je reprends les bases des réseaux en parallèle de mes cours et de mes essais sur le Mac, le Dell et les switches. Mes références principales sont Jeremy's IT Lab (CCNA) et Professor Messer (Network+).
 
-Ici, je conserve les notions et les questions à revoir. Les tests plus complets vont dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
+Ce README résume ma progression. Mes notes de séance restent dans mon application de notes ; les essais pratiques publiés vont dans [NodX-Lab](https://github.com/itsnodx/NodX-Lab).
 
 ## Progression
 
@@ -39,11 +39,5 @@ Ces catégories servent à raisonner : un problème réel ne se résume pas touj
 - Débrancher le câble casse la liaison physique.
 - Pour joindre un autre sous-réseau, il faut une route adaptée.
 - Un `ping` réussi ne prouve pas que le serveur web fonctionne.
-
-## Mes notes
-
-- [Glossaire](glossaire.md)
-- [Journal des séances](journal/)
-- [Séance 01 — OSI/TCP-IP](journal/2026-11-04-seance-01-osi-tcpip.md)
 
 **Prochain test :** capturer ARP et ICMP avec Wireshark, puis expliquer chaque échange observé.
