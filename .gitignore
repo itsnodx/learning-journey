@@ -14,3 +14,7 @@ __pycache__/
 *.bin
 *.iso
 *.lic
+
+# Fichiers système Windows
+desktop.ini
+Thumbs.db
